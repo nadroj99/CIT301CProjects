@@ -61,9 +61,9 @@ QUnit.test( "Union Test", function( assert ) {
                  'Bridger', 'Issac', 'Emma', 'Luke', 'Ruth', 'Joseph',
                  'James', 'Jean' ];
     
-    var expectedList = ['Bill', 'Mary','Peter','Sam','Mark','Ann','Susan', 'Mike',
-                        'James', 'Steve', 'Joseph', 'Jane', 'Bob', 'Wayne', 'Connie',
-                        'Jim', 'Bridger', 'Luke', 'Issac', 'Emma', 'Ruth',
+    var expectedList = ['Bill', 'Mark', 'Susan', 'Mike', 'Steve', 'Jane',
+                        'Bob', 'Wayne', 'Connie','Jim', 'Mary','Peter','Sam', 'Ann',
+                        'James', 'Joseph', 'Bridger', 'Luke', 'Issac', 'Emma', 'Ruth',
                         'Annabelle', 'Harriet', 'Jean'];
     
     assert.ok(expectedList.equals(setOperations.union(listA, listB)));
